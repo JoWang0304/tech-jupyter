@@ -1,1 +1,7 @@
-
+name: c_kernel
+channels:
+  - conda-forge
+dependencies:
+  - xeus-cling
+  - notebook
+  - jupyterlab
