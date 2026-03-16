@@ -1,1 +1,9 @@
-
+name: c_kernel
+channels:
+  - conda-forge
+dependencies:
+  - python=3.9          # 明确指定 Python 3.9 版本
+  - xeus-cling          # C/C++ 内核核心包
+  - notebook            # Jupyter Notebook 基础环境
+  - jupyterlab          # Jupyter Lab 界面
+  - ipykernel           # 保证 Python 内核可用
